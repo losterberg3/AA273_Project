@@ -1,0 +1,11 @@
+{
+    "name": "ROS2-Humble-Splatting",
+    "build": {
+        "dockerfile": "Dockerfile",
+        "args": { "USERNAME": "nolan" }
+    },
+    "remoteUser": "nolan",
+    "features": {
+        "ghcr.io/devcontainers/features/common-utils:2": {}
+    }
+}

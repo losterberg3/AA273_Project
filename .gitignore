@@ -1,0 +1,16 @@
+.DS_Store
+
+# Large datasets and archives
+*.bag
+*.db3
+*.zip
+
+# Project-generated data and results
+data/
+output/
+comparison/
+
+# ROS 2 workspace build artifacts
+ros2_ws/build/
+ros2_ws/install/
+ros2_ws/log/
