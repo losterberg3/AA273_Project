@@ -4,3 +4,6 @@
 [submodule "ORB"]
 	path = ORB
 	url = https://github.com/losterberg3/ORB.git
+[submodule "openvins"]
+	path = openvins
+	url = https://github.com/nolantopper/open_vins.git
