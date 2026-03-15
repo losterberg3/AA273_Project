@@ -1,0 +1,6 @@
+[submodule "VGGT"]
+	path = VGGT
+	url = https://github.com/losterberg3/VGGT.git
+[submodule "ORB"]
+	path = ORB
+	url = https://github.com/losterberg3/ORB.git
