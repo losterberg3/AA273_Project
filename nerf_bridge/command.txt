@@ -1,0 +1,8 @@
+# ORB SLAM3
+ns-train ros-splatfacto --data configs/table_orb.json --pipeline.datamanager.use-compressed-rgb True --pipeline.datamanager.dataparser.scene-scale-factor 0.5 --pipeline.datamanager.data-update-freq 4.0 --pipeline.datamanager.slam-method orbslam3 --vis viewer+tensorboard
+
+# VGGT
+ns-train ros-splatfacto --data configs/table_vggt.json --pipeline.datamanager.use-compressed-rgb True --pipeline.datamanager.dataparser.scene-scale-factor 0.5 --pipeline.datamanager.data-update-freq 4.0 --pipeline.datamanager.slam-method orbslam3 --vis viewer+tensorboard
+
+# OPENVINS
+ns-train ros-splatfacto --data configs/table_openvins.json --pipeline.datamanager.use-compressed-rgb False --pipeline.datamanager.dataparser.scene-scale-factor 0.5 --pipeline.datamanager.data-update-freq 4.0 --vis viewer+tensorboard
