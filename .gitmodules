@@ -7,3 +7,6 @@
 [submodule "openvins"]
 	path = openvins
 	url = https://github.com/nolantopper/open_vins.git
+[submodule "nerf_bridge"]
+	path = nerf_bridge
+	url = https://github.com/hojjunekim/nerf_bridge.git
